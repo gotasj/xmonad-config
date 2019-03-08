@@ -35,6 +35,7 @@ fi
 #twm &
 
 feh --randomize --bg-fill --no-fehbg ${HOME}/.wallpapers &
+compton -i 0.8 --active-opacity 0.9 --config /dev/null &
 
 # Load X resources
 xrdb -load ~/.Xresources &
